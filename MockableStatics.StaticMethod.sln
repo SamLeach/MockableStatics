@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableStatics.StaticMethod", "StaticMethod\MockableStatics.StaticMethod.csproj", "{529FC5AB-4CC3-4407-9EEF-2E80A2EC2744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableStatics.Engine", "MockableStatics.Engine\MockableStatics.Engine.csproj", "{BF996546-AEB1-488F-9D8C-EE769D8C2DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableStatics.Engine.Tests", "MockableStatics.Engine.Tests\MockableStatics.Engine.Tests.csproj", "{BC1BF845-5A18-4AAE-9303-5604715A5EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7479D867-4074-4540-AFB5-E5DDF0DC0849}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableStatics.ConsoleRunner", "MockableStatics.ConsoleRunner\MockableStatics.ConsoleRunner.csproj", "{A4E9A967-B5BA-4B72-9288-FA38294DD645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529FC5AB-4CC3-4407-9EEF-2E80A2EC2744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529FC5AB-4CC3-4407-9EEF-2E80A2EC2744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529FC5AB-4CC3-4407-9EEF-2E80A2EC2744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529FC5AB-4CC3-4407-9EEF-2E80A2EC2744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF996546-AEB1-488F-9D8C-EE769D8C2DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF996546-AEB1-488F-9D8C-EE769D8C2DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF996546-AEB1-488F-9D8C-EE769D8C2DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF996546-AEB1-488F-9D8C-EE769D8C2DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1BF845-5A18-4AAE-9303-5604715A5EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1BF845-5A18-4AAE-9303-5604715A5EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1BF845-5A18-4AAE-9303-5604715A5EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1BF845-5A18-4AAE-9303-5604715A5EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E9A967-B5BA-4B72-9288-FA38294DD645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E9A967-B5BA-4B72-9288-FA38294DD645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E9A967-B5BA-4B72-9288-FA38294DD645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E9A967-B5BA-4B72-9288-FA38294DD645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
